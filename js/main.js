@@ -35,7 +35,59 @@ $( ".left-nav a:nth-child(2)" ).click(function() {
 });
 //Acciones si se presiona el boton contactos
 $( ".left-nav a:nth-child(3)" ).click(function() {
-  alert($(".left-nav a:nth-child(3)").text());
+  //alert($(".left-nav a:nth-child(3)").text());
+  $(document).ready(function(){
+    $(".row").html("<div class=\"content\">\n" +
+      "    <div class=\"template-list-contact-content\">\n" +
+      "      <div class=\"contact-list\">\n" +
+      "        <div class=\"contact\">\n" +
+      "          <div class=\"imgprofile\">\n" +
+      "            <img src=\"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg\" alt=\"picture contact\" class=\"picprofile\"></img>\n" +
+      "          </div>\n" +
+      "          <div class=\"phonenumber\">\n" +
+      "          <span class=\"phone\">Jefe divisional 1</span>\n" +
+      "          </div>\n" +
+      "\n" +
+      "        </div>\n" +
+      "        <div class=\"contact\">\n" +
+      "          <div class=\"imgprofile\">\n" +
+      "            <img src=\"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg\" alt=\"picture contact\" class=\"picprofile\"></img>\n" +
+      "          </div>\n" +
+      "          <div class=\"phonenumber\">\n" +
+      "          <span class=\"phone\">Jefe divisional 2</span>\n" +
+      "          </div>\n" +
+      "\n" +
+      "        </div>\n" +
+      "        <div class=\"contact\">\n" +
+      "          <div class=\"imgprofile\">\n" +
+      "            <img src=\"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg\" alt=\"picture contact\" class=\"picprofile\"></img>\n" +
+      "          </div>\n" +
+      "          <div class=\"phonenumber\">\n" +
+      "          <span class=\"phone\">Jefe divisional 3</span>\n" +
+      "          </div>\n" +
+      "\n" +
+      "        </div>\n" +
+      "        <div class=\"contact\">\n" +
+      "          <div class=\"imgprofile\">\n" +
+      "            <img src=\"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg\" alt=\"picture contact\" class=\"picprofile\"></img>\n" +
+      "          </div>\n" +
+      "          <div class=\"phonenumber\">\n" +
+      "          <span class=\"phone\">Jefe Divisional 4</span>\n" +
+      "          </div>\n" +
+      "\n" +
+      "        </div>\n" +
+      "        <div class=\"contact\">\n" +
+      "          <div class=\"imgprofile\">\n" +
+      "            <img src=\"https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg\" alt=\"picture contact\" class=\"picprofile\"></img>\n" +
+      "          </div>\n" +
+      "          <div class=\"phonenumber\">\n" +
+      "          <span class=\"phone\">Jefe Divisional 5</span>\n" +
+      "          </div>\n" +
+      "        </div>\n" +
+      "      </div>\n" +
+      "    </div>\n" +
+      "    ");
+  });
 });
 //Acciones si se presiona el boton de pendientes
 $( ".left-nav a:nth-child(4)" ).click(function() {

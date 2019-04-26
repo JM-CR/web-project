@@ -133,10 +133,10 @@ body {
   line-height: 55px;
   text-align: center;
   transition: all .2s linear;
-  color: #3498DB;
+  color: #8a1e12;
 }
 .site-wrapper_top-bar a:hover, .site-wrapper_top-bar a.active {
-  background: #3498DB;
+  background: #8a1e12;
   color: rgba(253, 253, 253, 0.6);
 }
 .site-wrapper.active {
