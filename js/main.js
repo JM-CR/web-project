@@ -23,13 +23,13 @@ $( ".left-nav a:nth-child(2)" ).click(function() {
   //alert($(".left-nav a:nth-child(2)").text());
   $(document).ready(function(){
     $(".row").html("<section>\n" +
-      "    <button class=\"btn btn-green btn-border-o\">1 seccion</button>\n" +
-      "    <button class=\"btn btn-blue btn-border-o\">2da seccion</button>\n" +
-      "    <button class=\"btn btn-purple btn-border-o\">3ra seccion</button>\n" +
-      "    <button class=\"btn btn-navy btn-border-o\">4ta seccion</button>\n" +
-      "    <button class=\"btn btn-orange btn-border-o\">5ta seccion</button>\n" +
-      "    <button class=\"btn btn-red btn-border-o\">6ta seccion</button>\n" +
-      "    <button class=\"btn btn-green btn-border-o\">7ta seccion</button>\n" +
+      "    <button class=\"btn btn-green btn-border-o\">1 seccion</button> <br>\n" +
+      "    <button class=\"btn btn-blue btn-border-o\">2da seccion</button> <br>\n" +
+      "    <button class=\"btn btn-purple btn-border-o\">3ra seccion</button> <br>\n" +
+      "    <button class=\"btn btn-navy btn-border-o\">4ta seccion</button> <br>\n" +
+      "    <button class=\"btn btn-orange btn-border-o\">5ta seccion</button> <br> \n" +
+      "    <button class=\"btn btn-red btn-border-o\">6ta seccion</button> <br>\n" +
+      "    <button class=\"btn btn-green btn-border-o\">7ta seccion</button> <br>\n" +
       "  </section>");
   });
 });
