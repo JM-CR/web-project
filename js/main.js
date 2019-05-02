@@ -1,3 +1,5 @@
+
+
 $(function(){
   $('#toggle').click(function(){
     $('#target').toggleClass('active');
@@ -18,6 +20,7 @@ $( ".left-nav a:nth-child(1)" ).click(function() {
       "          </div>");
   });
 });
+
 //Acciones si se presiona el boton de archivos
 $( ".left-nav a:nth-child(2)" ).click(function() {
   //alert($(".left-nav a:nth-child(2)").text());
@@ -26,11 +29,12 @@ $( ".left-nav a:nth-child(2)" ).click(function() {
       "    <button class=\"btn btn-green btn-border-o\">1 seccion</button> <br>\n" +
       "    <button class=\"btn btn-blue btn-border-o\">2da seccion</button> <br>\n" +
       "    <button class=\"btn btn-purple btn-border-o\">3ra seccion</button> <br>\n" +
-      "    <button class=\"btn btn-navy btn-border-o\">4ta seccion</button> <br>\n" +
+      "    <button class=\"btn btn-blue btn-border-o\">4ta seccion</button> <br>\n" +
       "    <button class=\"btn btn-orange btn-border-o\">5ta seccion</button> <br> \n" +
       "    <button class=\"btn btn-red btn-border-o\">6ta seccion</button> <br>\n" +
       "    <button class=\"btn btn-green btn-border-o\">7ta seccion</button> <br>\n" +
-      "  </section>");
+      "  </section>" +
+      " <script src=\"../js/botonesArchivos.js\"></script>");
   });
 });
 //Acciones si se presiona el boton contactos
@@ -46,6 +50,8 @@ $( ".left-nav a:nth-child(3)" ).click(function() {
       "          </div>\n" +
       "          <div class=\"phonenumber\">\n" +
       "          <span class=\"phone\">Jefe divisional 1</span>\n" +
+      "          <span class=\"correo\">usuario@correo.uia.mx</span>\n" +
+      "          <span class=\"celular\">5555555555</span>\n" +
       "          </div>\n" +
       "\n" +
       "        </div>\n" +
@@ -55,6 +61,8 @@ $( ".left-nav a:nth-child(3)" ).click(function() {
       "          </div>\n" +
       "          <div class=\"phonenumber\">\n" +
       "          <span class=\"phone\">Jefe divisional 2</span>\n" +
+      "          <span class=\"correo\">usuario@correo.uia.mx</span>\n" +
+      "          <span class=\"celular\">5555555555</span>\n" +
       "          </div>\n" +
       "\n" +
       "        </div>\n" +
@@ -64,6 +72,8 @@ $( ".left-nav a:nth-child(3)" ).click(function() {
       "          </div>\n" +
       "          <div class=\"phonenumber\">\n" +
       "          <span class=\"phone\">Jefe divisional 3</span>\n" +
+      "          <span class=\"correo\">usuario@correo.uia.mx</span>\n" +
+      "          <span class=\"celular\">5555555555</span>\n" +
       "          </div>\n" +
       "\n" +
       "        </div>\n" +
@@ -73,6 +83,8 @@ $( ".left-nav a:nth-child(3)" ).click(function() {
       "          </div>\n" +
       "          <div class=\"phonenumber\">\n" +
       "          <span class=\"phone\">Jefe Divisional 4</span>\n" +
+      "          <span class=\"correo\">usuario@correo.uia.mx</span>\n" +
+      "          <span class=\"celular\">5555555555</span>\n" +
       "          </div>\n" +
       "\n" +
       "        </div>\n" +
@@ -82,6 +94,8 @@ $( ".left-nav a:nth-child(3)" ).click(function() {
       "          </div>\n" +
       "          <div class=\"phonenumber\">\n" +
       "          <span class=\"phone\">Jefe Divisional 5</span>\n" +
+      "          <span class=\"correo\">usuario@correo.uia.mx</span>\n" +
+      "          <span class=\"celular\">5555555555</span>\n" +
       "          </div>\n" +
       "        </div>\n" +
       "      </div>\n" +
@@ -97,3 +111,7 @@ $( ".left-nav a:nth-child(4)" ).click(function() {
 $( ".left-nav a:nth-child(5)" ).click(function() {
   alert($(".left-nav a:nth-child(5)").text());
 });
+
+
+
+
