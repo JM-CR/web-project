@@ -8,10 +8,14 @@ body {
   background: lightgray;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+section{
+  width: 10%;
+}
 
 .row {
   margin: 0 -15px;
   align-content: center;
+  position: relative;
 }
 
 
@@ -133,10 +137,10 @@ body {
   line-height: 55px;
   text-align: center;
   transition: all .2s linear;
-  color: #3498DB;
+  color: #8a1e12;
 }
 .site-wrapper_top-bar a:hover, .site-wrapper_top-bar a.active {
-  background: #3498DB;
+  background: #8a1e12;
   color: rgba(253, 253, 253, 0.6);
 }
 .site-wrapper.active {
@@ -158,7 +162,7 @@ body {
 
 /*Botones*/
 .btn {
-  display: inline-block;
+  display: inline-table;
   line-height: 35px;
   margin: 8px;
   padding: 0 15px;
@@ -169,8 +173,9 @@ body {
 
 .btn-border-o {
   background-color: transparent;
-  border: 3px solid #d0d0d0;
-  color: #B8B8B8;
+  border: 3px solid #585858;
+  color: #3e3e3e;
+  position: relative;
 }
 .btn-border-o:before, .btn-border-o:after {
   content: '';
